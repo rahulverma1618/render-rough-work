@@ -1,0 +1,90 @@
+/* navbar.css */
+
+
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:#1679AB;
+    color: #fff;
+    height: 20px;
+  }
+  
+  .left-navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Render {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .search-box-container {
+    flex-grow: 1;
+    margin: 0 20px;
+  }
+  
+  .search-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #fff;
+    border-radius:100px;
+    /* size: 50cm; */
+    width: 450px;
+    height: 39px;
+    display: inline-block;
+  }
+  
+  .navsearch-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .navsearch-btn:hover {
+    background-color: #444;
+  }
+  
+  .right-navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .right-navbar a:hover {
+    color: #ccc;
+  }

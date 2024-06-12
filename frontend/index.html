@@ -6,29 +6,28 @@
     <title>Render</title>
   
 
-    <link rel="stylesheet" href="static\css\style.css">
+    <link rel="stylesheet" href="css\navbar.css">
      
 
 </head>
 
 <body>
 
-    <div class="header">
+    <div class="navbar">            <!--the header is divided into three part--> 
 
-        <div class="left-header">
+        <div class="left-navbar">            <!--    this  div contain the  logo and the name of the platform -->
             <img className="logo" src={logo} alt="logo"/>
             <h2>Render</h2>
         </div>
 
-        <div class="search-box-container">
+        <div class="search-box-container">   <!--  this  div contain the  search box -->
             <form>
                 <input type="text" placeholder="Search.." name="search" className="search" />
                 <button type="Search" className="navsearch-btn"></button>
               </form>
-           
         </div>
 
-        <div class="right-header">
+        <div class="right-navbar">       <!--  this  div contain the  user type and login  -->
           <a href="#user type">User Type </a>
           <a href="#login">Login</a>
         </div>
