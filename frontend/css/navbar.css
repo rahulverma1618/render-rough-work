@@ -15,10 +15,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0rem 1rem;
     background-color:#1679AB;
     color: #fff;
-    height: 20px;
+    height: 50px;
   }
   
   .left-navbar {
@@ -68,6 +68,8 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 0px 20px 20px 0px;
+    height: 39px;
   }
   
   .navsearch-btn:hover {
@@ -87,4 +89,15 @@
   
   .right-navbar a:hover {
     color: #ccc;
+  }
+
+  .search-bar{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+  }
+  .search{
+    border-radius: 20px 0px 0px 20px;
+    width: 50vh;
+    font-size: 20px;
   }
