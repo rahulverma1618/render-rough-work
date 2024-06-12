@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Render</title>
+  
 
-    <link rel="stylesheet" href="css\navbar.css" />
-  </head>
+    <link rel="stylesheet" href="css\navbar.css">
+     
 
-  <body>
-    <div class="navbar">
-      <!--the header is divided into three part-->
+</head>
 
-      <div class="left-navbar">
-        <!--    this  div contain the  logo and the name of the platform -->
-        <img class="logo" src="{logo}" alt="logo" />
-        <h2>Render</h2>
-      </div>
+<body>
 
-      <div class="search-box-container">
-        <!--  this  div contain the  search box -->
-        <form class="search-bar">
-          <input
-            type="text"
-            placeholder="Search.."
-            name="search"
-            class="search"
-          />
-          <button type="Search" class="navsearch-btn">Search</button>
-        </form>
-      </div>
+    <div class="navbar">            <!--the header is divided into three part--> 
 
-      <div class="right-navbar">
-        <!--  this  div contain the  user type and login  -->
-        <a href="#user type">User Type </a>
-        <a href="#login">Login</a>
-      </div>
+        <div class="left-navbar">            <!--    this  div contain the  logo and the name of the platform -->
+           
+           <div className="logo">
+            <img className="logo" src={logo} alt="logo"/>
+           </div>
+             
+           <div className="Render">
+            <h2>Render</h2>
+           </div>
+        
+        </div>
+
+        <div class="search-box-container">   <!--  this  div contain the  search box -->
+            <form>
+                <input type="text" placeholder="Search.." name="search" class="search-box" />
+                <button type="Search" className="navsearch-btn"></button>
+              </form>
+        </div>
+
+        <div class="right-navbar">       <!--  this  div contain the  user type and login  -->
+          <a href="#user type">User Type </a>
+          <a href="#login">Login</a>
+        </div>
     </div>
-  </body>
+    
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
